@@ -1,6 +1,7 @@
 # signal-r-websocket-use-case
-This is a demonstration project of signalR as websocket. SignalR is a C# websocket package. 
-API of the project is written with .net Core 2 and UI of the project is written with Angular framework. 
+This is a demonstration project of signalR as websocket. SignalR is a C# websocket package.
+<br/>
+The API of the project is written with .net Core 2 and the UI of the project is written with Angular framework. 
 <br/>
 The UI of the project consists of an svg object made in Adobe Illustrations. 
 User can activate or deactivate objects areas simultaneously across different devices, browsers or pages without refreshing the page through websocket.

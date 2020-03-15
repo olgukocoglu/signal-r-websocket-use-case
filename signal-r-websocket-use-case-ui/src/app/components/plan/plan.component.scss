@@ -1,0 +1,22 @@
+.area path, .area polygon {
+    cursor: pointer;
+    transition-property:fill, transform, filter;
+    transition-duration: 2s;
+}
+
+:not(.active):hover.area path, :not(.active):hover.area polygon {
+    fill: #D4EDDA;
+    transform: translate(0px, -50px);
+}
+
+:active.area path, :active.area polygon {
+    fill: #85E39B;
+    transform: translate(0px, -40px);
+    transition-duration: 1s;
+}
+
+.active path, .active polygon {
+    fill: #85E39B;
+    transform: translate(0px, -40px);
+    transition-duration: 1s;
+}

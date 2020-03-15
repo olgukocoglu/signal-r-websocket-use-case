@@ -1,0 +1,15 @@
+version: '3'
+services:
+    remote-garden-api:
+        image: signal-r-websocket-use-case-api
+        container_name: signal-r-websocket-use-case-api
+        build: ./signal-r-websocket-use-case-api/
+        ports:
+            - '5000:80'
+
+    remote-garden-ui:
+        image: signal-r-websocket-use-case-ui
+        container_name: signal-r-websocket-use-case-ui
+        build: ./signal-r-websocket-use-case-ui/
+        ports:
+            - '4200:80'
